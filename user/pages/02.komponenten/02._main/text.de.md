@@ -85,9 +85,9 @@ Text<sub>Subscripted</sub> `<sub>`
 
 * list item 1
 * list item 2
-    * list item 2.1
-    * list item 2.2
-    * list item 2.3
+  * list item 2.1
+  * list item 2.2
+  * list item 2.3
 * list item 3
 
 ```markdown
@@ -124,6 +124,7 @@ Text<sub>Subscripted</sub> `<sub>`
 | The Shawshank Redemption    | Crime, Drama                  | 14 October 1994      |
 | The Godfather               | Crime, Drama                  | 24 March 1972        |
 | Schindler's List            | Biography, Drama, History     | 4 February 1994      |
+| No Genre                    |                               | 7 May 5890           |
 | Se7en                       | Crime, Drama, Mystery         | 22 September 1995    |
 
 ```markdown
@@ -132,6 +133,7 @@ Text<sub>Subscripted</sub> `<sub>`
 | The Shawshank Redemption    | Crime, Drama                  | 14 October 1994      |
 | The Godfather               | Crime, Drama                  | 24 March 1972        |
 | Schindler's List            | Biography, Drama, History     | 4 February 1994      |
+| No Genre                    |                               | 7 May 5890           |
 | Se7en                       | Crime, Drama, Mystery         | 22 September 1995    |
 ```
 
