@@ -2,27 +2,23 @@
 
 ## Installation
 
-### Requirements
-
+Requirements:
 - composer
 
-### Setup
-
 Install the dependencies:
-
 ```sh
 composer install
 ```
 
 ## Development
 
-### Requirements
+### Local Server
 
+Requirements:
 - UNIX system
 - (alternatively) git bash
 
 Run the development server:
-
 ```sh
 bin/grav server
 ```
