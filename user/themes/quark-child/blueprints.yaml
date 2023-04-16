@@ -5,13 +5,13 @@ version: 0.1.0
 description: Kind von Quark
 icon: rebel
 author:
-  name: Cuno Vollenweider
-  email: cuno@infowerkstatt.ch
-homepage: https://github.com/cuno-vollenweider/grav-theme-quark-child
+  name: Nicholas Krebs
+  email: nicholas.joel.krebs@gmail.com
+homepage: https://github.com/chraebsli/grav-template
 demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://github.com/cuno-vollenweider/grav-theme-quark-child/issues
-readme: https://github.com/cuno-vollenweider/grav-theme-quark-child/blob/develop/README.md
+bugs: https://github.com/chraebsli/grav-template/issues
+readme: https://github.com/chraebsli/grav-template/blob/main/README.md
 license: MIT
 
 dependencies:
