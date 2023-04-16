@@ -1,5 +1,9 @@
 ---
-title: Typography
+title: main
+body_classes: modular
+class: p-main
+published: true
+image_align: left
 ---
 
 ! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
@@ -152,4 +156,3 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 
 !!!! This is a success notification
 ```
-
