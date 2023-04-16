@@ -1,0 +1,19 @@
+title: "Grav Template"
+default_lang: de
+author:
+  name: Nicholas Krebs
+  email: "nicholas.joel.krebs@gmail.com"
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: "Dies ist die Website der Grav Template"
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: "==="
+redirects: null
+routes: null
+blog:
+  route: /blog

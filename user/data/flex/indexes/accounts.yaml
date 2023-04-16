@@ -1,0 +1,14 @@
+version: '1.2'
+timestamp: 1681636165
+count: 2
+index:
+  default-admin:
+    storage_key: default-admin
+    storage_timestamp: 1681635297
+    key: default-admin
+    email: default-admin@grav-template.com
+  default-editor:
+    storage_key: default-editor
+    storage_timestamp: 1681636165
+    key: default-editor
+    email: default-editor@grav-template.com

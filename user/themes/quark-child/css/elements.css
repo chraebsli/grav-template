@@ -1,0 +1,77 @@
+/* ------------------------------------------- hero ------------------------------------------- */
+.hero {
+	height: 30rem;
+	padding: 3rem 0;
+	justify-self: center;
+}
+
+.hero .container {
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-width: none;
+}
+
+.hero h1,
+.hero h2 {
+	font-size: 2rem;
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+	background-color: #000000B2;
+	color: #ffffff !important;
+}
+
+/* ------------------------------------------- idk ------------------------------------------- */
+section {
+	width: 100%;
+}
+
+#start {
+	background-color: #ffffff;
+}
+
+/* ------------------------------------------- overlays ------------------------------------------- */
+.overlay-dark .image-overlay {
+	background-color: var(--overlay-dark);
+}
+
+.overlay-dark-gradient .image-overlay {
+	background: linear-gradient(to bottom, var(--overlay-dark-grad-from), var(--overlay-dark-grad-to));
+}
+
+.p3 .overlay-dark .image-overlay {
+	background-color: #00000066;
+}
+
+.p3 .g-hero .image-overlay {
+	background-color: #00006666;
+}
+
+.p3 .text-light h1,
+.p3 .text-light h2 {
+	color: #fff;
+}
+
+/* ------------------------------------------- owl carousel ------------------------------------------- */
+.owl-carousel h4 {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.owl-carousel p {
+	font-size: 1.1rem;
+	font-style: italic;
+}
+
+/* ------------------------------------------- sponsoren ------------------------------------------- */
+.sponsoren-list p {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+}
+.sponsoren-list img{
+	padding: 1rem;
+	align-self: center;
+	justify-self: center;
+}

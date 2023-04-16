@@ -1,0 +1,20 @@
+g_editor:
+  access:
+    site:
+      login: true
+    admin:
+      login: true
+      super: false
+      cache: true
+      configuration: false
+      pages: true
+      maintenance: false
+      statistics: true
+      plugins: false
+      themes: false
+      tools: true
+      users: false
+      flex-objects: true
+  readableName: 'Site Editor'
+  description: 'Editors of Site'
+  enabled: true

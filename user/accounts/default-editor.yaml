@@ -1,0 +1,11 @@
+state: enabled
+email: default-editor@grav-template.com
+fullname: Editor
+hashed_password: $2y$10$EXRrJYRP.P2mvk5OvFUur.AOc3r59Lnz/UTMVwBtlFpmPp5zNDYsO
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: KMDXQJC3R3SGMAMWVTWHGQVVLKSLYW2O
+avatar: {  }
+groups:
+  - g_editor

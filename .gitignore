@@ -1,0 +1,10 @@
+/vendor
+/images
+/cache
+/backup
+/tmp
+/user/plugins
+user/data/notifications/
+user/data/feed/
+assets/admin-preset.css
+logs/grav.log
