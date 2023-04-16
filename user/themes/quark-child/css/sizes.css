@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+	.hero {
+		height: 20rem;
+	}
+	#desktop-navigation .navigation {
+		display: none;
+	}
+	#mobile-menu {
+		display: flex;
+	}
+	.web-title {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	#desktop-navigation .navigation {
+		display: flex;
+	}
+	#mobile-menu {
+		display: none;
+	}
+}
+

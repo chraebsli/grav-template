@@ -1,0 +1,28 @@
+<section class="navigation section bg-sec" data-layout="desktop">
+	<nav class="navbar f">
+		{% if (home_url == "/" or home_url == '') %}
+			{% set url = '' %}
+		{% else %}
+			{% set url = home_url %}
+		{% endif %}
+
+		<div class="nav-item f c a">
+			<a href="{{ url }}/" class="nav-link"><span>Aktuell</span></a>
+		</div>
+		<div class="nav-item f c a">
+			<a href="{{ url }}/agenda" class="nav-link"><span>Agenda</span></a>
+		</div>
+		<div class="nav-item f c a">
+			<a href="{{ url }}/verein" class="nav-link"><span>Verein</span></a>
+		</div>
+		<div class="nav-item f c a">
+			<a href="{{ url }}/ausbildung" class="nav-link"><span>Ausbildung</span></a>
+		</div>
+		<div class="nav-item f c a">
+			<a href="{{ url }}/galerie" class="nav-link"><span>Galerie</span></a>
+		</div>
+		<div class="nav-item f c a">
+			<a href="{{ url }}/sponsoren" class="nav-link"><span>Sponsoren</span></a>
+		</div>
+	</nav>
+</section>
