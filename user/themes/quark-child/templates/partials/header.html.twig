@@ -1,10 +1,14 @@
 <section id="header" class="section bg-sec">
 	<section class="container">
 		<nav class="navbar">
+			{% do assets.addJs('theme://js/navigation.js', {group:'bottom'}) %}
 			<section class="navbar-section logo">
 				{% include 'partials/logo.html.twig' %}
-				<div class="web-title"> —&nbsp; Begeisterung für die Musik seit 1946</div>
+				<div class="web-title">Grav Template</div>
 			</section>
+			<div id="desktop-navigation" class="desktop-navigation navbar-section navigation">
+				{% include 'partials/navigation.html.twig' %}
+			</div>
 			<section id="mobile-menu" class="navbar-section mobile-nav" onclick="toggleNavigationMenu()">
 				<div class="icon">
 					<i></i>

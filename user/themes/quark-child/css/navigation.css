@@ -1,6 +1,24 @@
+#mobile-navigation.show,
+#mobile-menu.show {
+	display: flex;
+}
+
+#mobile-navigation:not(.show),
+#mobile-menu:not(.show) {
+	display: none;
+}
+
 /* ------------------------------------------- navigation ------------------------------------------- */
 #desktop-navigation {
 	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
 }
 
 .navigation {
@@ -9,13 +27,18 @@
 	padding: 0 !important;
 }
 
+.navigation[data-layout="desktop"] {
+	justify-content: flex-end;
+}
+
 .navigation .navbar {
 	width: 100%;
 }
+
 .navigation .nav-item {
 	height: 4rem;
-	width: calc(100% / 6);
-	background-color: #ffffff;
+	margin: 0 1rem;
+	padding: 0 .5rem;
 }
 
 .navigation .nav-item.active {
@@ -29,14 +52,7 @@
 	text-decoration: none;
 	justify-content: center;
 	align-items: center;
-}
-
-.navigation .nav-item a, .navigation .nav-item a:hover, .navigation .nav-item a:visited {
-	color: var(--prim-color);
-}
-
-.navigation .nav-item.active a, .navigation .nav-item.active a:hover, .navigation .nav-item.active a:visited {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 /* ------------------------------------------- mobile navigation ------------------------------------------- */
@@ -47,15 +63,6 @@
 	z-index: 2;
 	height: fit-content;
 	width: 15rem;
-	display: none;
-}
-
-#mobile-navigation.active {
-	display: block;
-}
-
-#mobile-navigation .navbar {
-	flex-direction: column;
 }
 
 #mobile-navigation .nav-item {
@@ -68,14 +75,6 @@
 	background-color: #ffffff;
 }
 
-#mobile-navigation .nav-item a, #mobile-navigation .nav-item a:hover, #mobile-navigation .nav-item a:visited {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-#mobile-navigation .nav-item.active a, #mobile-navigation .nav-item.active a:hover, #mobile-navigation .nav-item.active a:visited {
-	color: var(--prim-color);
-}
 #mobile-navigation .nav-item span {
 	font-size: 1rem;
 }
@@ -85,11 +84,16 @@
 	margin-right: 0 !important;
 }
 
+.navigation[data-layout="mobile"] {
+	flex-direction: row;
+}
+
 .mobile-nav .icon i::before {
 	height: 4rem;
 	width: 4rem;
 	content: url("./assets/menu.svg");
 }
+
 .mobile-nav.active .icon i::before {
 	content: url("./assets/close.svg");
 }

@@ -2,23 +2,22 @@
 	.hero {
 		height: 20rem;
 	}
-	#desktop-navigation .navigation {
-		display: none;
+
+	#desktop-navigation {
+		display: none !important;
 	}
+
 	#mobile-menu {
-		display: flex;
-	}
-	.web-title {
-		display: none;
+		display: flex !important;
 	}
 }
 
 @media screen and (min-width: 601px) {
-	#desktop-navigation .navigation {
-		display: flex;
+	#desktop-navigation {
+		display: flex !important;
 	}
+
 	#mobile-menu {
-		display: none;
+		display: none !important;
 	}
 }
-

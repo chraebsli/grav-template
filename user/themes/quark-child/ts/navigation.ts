@@ -1,20 +1,16 @@
 const startMobileMenu = () => {
-	getMobileButton().addEventListener('onclick', () => {
-			toggleNavigationMenu()
-		}
-	)
+	getMobileMenu().addEventListener('onclick', () => {
+		toggleNavigationMenu()
+	});
+	(getMobileNavigation().children[0] as HTMLDivElement).dataset.layout = 'mobile'
 }
 
 const toggleNavigationMenu = () => {
-	getMobileButton().classList.toggle('active')
-	getMobileMenu().classList.toggle('active')
+	getMobileMenu().classList.toggle('show')
+	getMobileNavigation().classList.toggle('show')
 }
 
-const getMobileButton = (): HTMLDivElement => {
-	return document.querySelector('#mobile-menu')
-}
-const getMobileMenu = (): HTMLDivElement => {
-	return document.querySelector('#mobile-navigation')
-}
+const getMobileMenu = (): HTMLDivElement => document.querySelector('#mobile-menu')
+const getMobileNavigation = (): HTMLDivElement => document.querySelector('#mobile-navigation')
 
 window.addEventListener('load', startMobileMenu)

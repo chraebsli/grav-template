@@ -24,8 +24,6 @@
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
-
-    {# Neu hinzugefügt von Cuno - Test 2022#}
     {% do assets.addCss('theme://css/animate.min.css') %}
     {% do assets.addCss('theme://css/icons.min.css') %}
 {% endblock %}
@@ -49,22 +47,11 @@
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
     <div id="page-wrapper">
-
-        {# Verschoben nach  partials/header.html.twig #}
         {% block header %}
             {% include 'partials/header.html.twig' %}
         {% endblock %}
 
         {% block hero %}{% endblock %}
-
-        {# Navigation #}
-        <div id="desktop-navigation">
-        {% block navigation %}
-            {% include 'partials/navigation.html.twig' %}
-            {% do assets.addJs('theme://js/navigation.js', {group:'bottom'}) %}
-            {% do assets.addJs('theme://js/active-link.js', {group:'bottom'}) %}
-        {% endblock %}
-        </div>
 
         <section id="start">
         {% block body %}
@@ -78,7 +65,6 @@
             </section>
         {% endblock %}
         </section>
-
     </div>
 
     {% block footer %}
