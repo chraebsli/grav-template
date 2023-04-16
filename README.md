@@ -3,22 +3,60 @@
 ## Installation
 
 Requirements:
+
 - composer
+- doppler-cli
 
 Install the dependencies:
+
 ```sh
 composer install
 ```
 
+### Doppler
+
+#### Install Windows
+
+```cmd
+scoop bucket add doppler https://github.com/DopplerHQ/scoop-doppler.git
+scoop install doppler
+```
+
+#### Install Linux
+
+```sh
+(curl -Ls --tlsv1.2 --proto "=https" --retry 3 https://cli.doppler.com/install.sh || wget -t 3 -qO- https://cli.doppler.com/install.sh) | sudo sh
+```
+
+#### Login
+
+```sh
+doppler login
+```
+
 ## Development
+
+### Secrets
+
+Requirements:
+
+- UNIX system
+- (alternatively) git bash
+
+```sh
+doppler setup
+doppler run --command="./install.sh"
+```
 
 ### Local Server
 
 Requirements:
+
 - UNIX system
 - (alternatively) git bash
 
 Run the development server:
+
 ```sh
 bin/grav server
 ```

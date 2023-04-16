@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Compile Typescipt Code",
+			"type": "typescript",
+			"tsconfig": "user/tsconfig.json",
+			"option": "watch",
+			"problemMatcher": [
+				"$tsc-watch",
+			],
+			"group": "build",
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "doppler run --command='dependencies.sh'",
+			"windows": {
+				"command": "git bash -c 'doppler run --command=dependencies.sh'",
+			},
+		},
+		{
+			"label": "Inject Secrets",
+			"type": "shell",
+			"command": "doppler run --command='secrets.sh'",
+			"windows": {
+				"command": "git bash -c 'doppler run --command=secrets.sh'",
+			},
+		},
+	],
+}
