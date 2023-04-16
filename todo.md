@@ -1,0 +1,2 @@
+- [ ] sitemap.xml
+- [ ] user/config/site.yaml
