@@ -4,3 +4,6 @@
 /backup
 /tmp
 /user/plugins
+user/data/notifications/
+
+user/data/feed/
