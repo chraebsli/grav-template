@@ -72,9 +72,3 @@ Open the site in your browser: <http://localhost:8000>
   - [ ] [templates](user/themes/quark-child/templates)
   - [ ] [CSS](user/themes/quark-child/css)
   - [ ] [Images](user/themes/quark-child/images)
-
-
-
-
-
-
