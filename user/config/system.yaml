@@ -191,7 +191,7 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: mgrumisberg
+  name: grav
   uniqueness: path
   secure: false
   secure_https: true
@@ -200,7 +200,6 @@ session:
   split: true
   domain: null
   path: /
-  #path: null
 gpm:
   releases: stable
   official_gpm_only: true
