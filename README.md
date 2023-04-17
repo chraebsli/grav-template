@@ -1,4 +1,4 @@
-# Grav Template
+# sgrumisberg.ch
 
 ## Installation
 

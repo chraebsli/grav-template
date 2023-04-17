@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Common\Page
  *
- * @copyright  Copyright (c) 2015 - 2023 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -26,7 +26,6 @@ use Grav\Common\Page\Interfaces\PageInterface;
 use Grav\Common\Taxonomy;
 use Grav\Common\Uri;
 use Grav\Common\Utils;
-use Grav\Events\TypesEvent;
 use Grav\Framework\Flex\Flex;
 use Grav\Framework\Flex\FlexDirectory;
 use Grav\Framework\Flex\Interfaces\FlexTranslateInterface;
@@ -1290,7 +1289,7 @@ class Pages
 
             $scanBlueprintsAndTemplates = static function (Types $types) use ($grav) {
                 // Scan blueprints
-                $event = new TypesEvent();
+                $event = new Event();
                 $event->types = $types;
                 $grav->fireEvent('onGetPageBlueprints', $event);
 
@@ -1304,7 +1303,7 @@ class Pages
                 $types->scanBlueprints($lookup);
 
                 // Scan templates
-                $event = new TypesEvent();
+                $event = new Event();
                 $event->types = $types;
                 $grav->fireEvent('onGetPageTemplates', $event);
 
@@ -1774,7 +1773,7 @@ class Pages
         $dirs = (array) $grav['config']->get('system.pages.dirs', ['page://']);
         foreach ($dirs as $dir) {
             $path = $locator->findResource($dir);
-            if (file_exists($path) && !in_array($path, $paths, true)) {
+            if (file_exists($path)) {
                 $paths[] = $path;
             }
         }
