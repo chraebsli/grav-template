@@ -192,7 +192,7 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: sgrumisberg
+  name: grav
   uniqueness: path
   secure: false
   secure_https: true

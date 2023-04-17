@@ -14,17 +14,17 @@
 		{
 			"label": "Install Dependencies",
 			"type": "shell",
-			"command": "doppler run --command='dependencies.sh'",
+			"command": "./dependencies.sh",
 			"windows": {
-				"command": "git bash -c 'doppler run --command=dependencies.sh'",
+				"command": "git bash -c './dependencies.sh'",
 			},
 		},
 		{
 			"label": "Inject Secrets",
 			"type": "shell",
-			"command": "doppler run --command='secrets.sh'",
+			"command": "./secrets.sh",
 			"windows": {
-				"command": "git bash -c 'doppler run --command=secrets.sh'",
+				"command": "git bash -c './secrets.sh'",
 			},
 		},
 	],
