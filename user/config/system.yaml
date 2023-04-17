@@ -95,7 +95,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -155,6 +155,7 @@ log:
   handler: file
   syslog:
     facility: local6
+    tag: grav
 debugger:
   enabled: false
   provider: clockwork
@@ -164,11 +165,11 @@ debugger:
   twig: true
 images:
   default_image_quality: 100
-  cache_all: false
+  cache_all: true
   cache_perms: "0755"
   debug: false
   auto_fix_orientation: true
-  seofriendly: false
+  seofriendly: true
   cls:
     auto_sizes: false
     aspect_ratio: false
@@ -182,10 +183,10 @@ images:
     scale: 33
     watermark_all: false
 media:
-  enable_media_timestamp: false
+  enable_media_timestamp: true
   unsupported_inline_types: null
   allowed_fallback_types: null
-  auto_metadata_exif: false
+  auto_metadata_exif: true
   upload_limit: 41943040
 session:
   enabled: true

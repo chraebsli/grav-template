@@ -2,27 +2,39 @@
 
 ## Installation
 
-Requirements:
+1. Clone the repository
+2. Install [dependencies](#dependencies)
+3. Install [Doppler](#doppler-installation)
+4. Configure [secrets](#secrets)
+5. (opt) [Auto Setup](#auto-setup) (to automatically install the dependencies and secrets after a pull)
 
-- composer
-- doppler-cli
+### Dependencies
+
+**Requirements**:
+- [composer](https://getcomposer.org/)
 
 Install the dependencies:
 
-```sh
-composer install
-```
+- Run IDE Task: `Install Dependencies`
+- Run in Terminal:
+  ```sh
+  ./dependencies.sh
+  ```
 
-### Doppler
+### Doppler Installation
 
-#### Install Windows
+**Requirements**:
+- [doppler-cli](https://docs.doppler.com/docs/install-cli)
+- [scoop](https://scoop.sh/) (Windows only)
+
+#### Install on Windows
 
 ```cmd
 scoop bucket add doppler https://github.com/DopplerHQ/scoop-doppler.git
 scoop install doppler
 ```
 
-#### Install Linux
+#### Install on Linux
 
 ```sh
 (curl -Ls --tlsv1.2 --proto "=https" --retry 3 https://cli.doppler.com/install.sh || wget -t 3 -qO- https://cli.doppler.com/install.sh) | sudo sh
@@ -32,6 +44,18 @@ scoop install doppler
 
 ```sh
 doppler login
+```
+
+### Secrets
+
+**Requirements**:
+- [Doppler](#doppler-installation)
+- UNIX system
+- (alternatively) git bash
+
+```sh
+doppler setup
+./secrets.sh
 ```
 
 ### Auto Setup
@@ -44,32 +68,17 @@ git config --local core.hooksPath .githooks/
 
 ## Development
 
-### Secrets
-
-Requirements:
-
-- UNIX system
-- (alternatively) git bash
-
-```sh
-doppler setup
-./secrets.sh
-```
-
 ### Local Server
 
-Requirements:
-
+**Requirements:**
 - UNIX system
 - (alternatively) git bash
 
-Run the development server:
-
-```sh
-bin/grav server
-```
-
-Open the site in your browser: <http://localhost:8000>
+1. Run the development server:
+    ```sh
+    bin/grav server
+    ```
+2. Open the site in your browser: <http://localhost:8000>
 
 ## Configuration
 
