@@ -24,6 +24,8 @@
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
+    
+    {# Neu hinzugefügt von Cuno - Test 2022#}
     {% do assets.addCss('theme://css/animate.min.css') %}
     {% do assets.addCss('theme://css/icons.min.css') %}
 {% endblock %}
@@ -31,12 +33,11 @@
 {% block javascripts %}
     {% do assets.addJs('jquery', 101) %}
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
-
+    
     {# JQuery mobile #}
     {% do assets.addJs('theme://js/jquery.mobile.custom.min.js', {group:'bottom'}) %}
 
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
-
     {% do assets.addJs('theme://js/table.js', { group: 'bottom' }) %}
 {% endblock %}
 
@@ -49,11 +50,13 @@
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
     <div id="page-wrapper">
+
+        {# Verschoben nach  partials/header.html.twig - Nichloas Krebs 2022#}
         {% block header %}
             {% include 'partials/header.html.twig' %}
         {% endblock %}
 
-        {% block hero %}{% endblock %}
+    {% block hero %}{% endblock %}
 
         <section id="start">
         {% block body %}
@@ -67,6 +70,7 @@
             </section>
         {% endblock %}
         </section>
+
     </div>
 
     {% block footer %}

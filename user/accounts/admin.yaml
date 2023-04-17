@@ -1,0 +1,26 @@
+state: enabled
+email: admin@sgrumisberg.ch
+fullname: Administrator
+title: Administrator
+hashed_password: $2y$10$ELCXXOfzyak7rrMOb9ed9uAfMEXX/odxDPGkg5.ybNFbyx54JSzWG
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: JHIAF3JUVVXLSV5WLBG5BSSE7FEPMTMS
+avatar: {  }
+access:
+  site:
+    login: true
+  admin:
+    login: true
+    super: true
+    cache: true
+    configuration: true
+    pages: true
+    maintenance: true
+    statistics: true
+    plugins: true
+    themes: true
+    tools: true
+    users: true
+    flex-objects: true

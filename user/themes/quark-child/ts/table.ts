@@ -1,58 +1,89 @@
-const setTablesFullWidth = (): void => getAllTables().forEach(table => table.style.width = table.parentElement.clientWidth - 20 + "px");
-const loadStyles = (): void => loadTableStyles();
-const fillEmptyCells = () => {
-	const nbsp = "\xa0";
-	getAllTableData().forEach(cell => { if (cell.innerText === "") cell.innerText = nbsp; });
-}
+/* *********************************************** responsive *********************************************** */
 const addResponsiveToAllTables = (): void => {
 	const tables = getAllTables();
-	tables.forEach(table => {
-		const tableHeaders = getAllTableHeadersFromTable(table);
-		const tableHeaderTexts = getAllTextFromTableHeaders(tableHeaders);
-		const tableRows = getAllTableRowsFromTable(table);
-		const cells = [...getAllTableData(), ...getAllTableHeaders()];
-		cells.forEach(cell => getStyleAttributesAndRewrite(cell));
-		tableRows.forEach(tr => getAllTableDataFromTableRows(tr).forEach((td, i) => td.setAttribute("data-label", tableHeaderTexts[i])));
-	});
+	tables.forEach( table => {
+		const tableHeaders = getAllTableHeadersFromTable( table );
+		const tableHeaderTexts = getAllTextFromTableHeaders( tableHeaders );
+		const tableRows = getAllTableRowsFromTable( table );
+		const allTableCells = [ ...getAllTableData(), ...getAllTableHeaders() ];
+		allTableCells.forEach( tc => { getStyleAttributesAndRewrite( tc ); } );
+		tableRows.forEach( tr => {
+			const tableData = getAllTableDataFromTableRows( tr );
+			tableData.forEach( ( td, i ) => {
+				td.setAttribute( "data-label", tableHeaderTexts[ i ] );
+			} );
+		} );
+	} );
 };
 
-const getAllTables = (): NodeListOf<HTMLTableElement> => document.querySelectorAll("table");
-const getAllTableHeadersFromTable = (table: HTMLTableElement): NodeListOf<HTMLTableCellElement> => table.querySelectorAll("th");
-const getAllTableRowsFromTable = (table: HTMLTableElement): NodeListOf<HTMLTableRowElement> => table.querySelectorAll("tr");
+const fullWidthTables = (): void => {
+	const tables = getAllTables();
+	tables.forEach( table => {
+		table.style.width = table.parentElement.clientWidth - 20 + "px";
+	} );
+};
 
-const getAllTextFromTableHeaders = (tableHeaderArr: NodeListOf<HTMLTableCellElement>): string[] => {
+/* *********************************************** functions *********************************************** */
+const getAllTables = (): NodeListOf<HTMLTableElement> => {
+	return document.querySelectorAll( "table" );
+};
+
+const getAllTableHeadersFromTable = ( table: HTMLTableElement ): NodeListOf<HTMLTableCellElement> => {
+	return table.querySelectorAll( "th" );
+};
+
+const getAllTableRowsFromTable = ( table: HTMLTableElement ): NodeListOf<HTMLTableRowElement> => {
+	return table.querySelectorAll( "tr" );
+};
+
+const getAllTextFromTableHeaders = ( tableHeaderArr: NodeListOf<HTMLTableCellElement> ): string[] => {
 	const tableHeaderTextArr = [];
-	tableHeaderArr.forEach(th => tableHeaderTextArr.push(th.innerText));
+	tableHeaderArr.forEach( th => {
+		tableHeaderTextArr.push( th.innerText );
+	} );
 	return tableHeaderTextArr;
 };
 
-const getAllTableDataFromTableRows = (tableRow: HTMLTableRowElement): NodeListOf<HTMLTableCellElement> => tableRow.querySelectorAll("td");
-
-const getStyleAttributesAndRewrite = (cell: HTMLTableCellElement): void => {
-	const styleAttr = cell.getAttribute("style").split(": ")[1].split(";")[0];
-	if (styleAttr) cell.setAttribute("data-text-align", styleAttr);
-	cell.setAttribute("style", "");
+const getAllTableDataFromTableRows = ( tableRow: HTMLTableRowElement ): NodeListOf<HTMLTableCellElement> => {
+	return tableRow.querySelectorAll( "td" );
 };
 
+const getStyleAttributesAndRewrite = ( tc: HTMLTableCellElement ): void => {
+	const styleAttr = tc.getAttribute( "style" ).split( ": " )[ 1 ].split( ";" )[ 0 ];
+	if ( styleAttr ) {
+		tc.setAttribute( "data-text-align", styleAttr );
+	}
+	tc.setAttribute( "style", "" );
+};
+
+/* *********************************************** styling *********************************************** */
+const loadStyles = (): void => {
+	loadTableStyles();
+};
 
 const loadTableStyles = (): void => {
-	const cells = [...getAllTableData(), ...getAllTableHeaders()];
-	cells.forEach(cell => {
-		const textAlign = cell.dataset.textAlign;
-		if (textAlign) cell.setAttribute("class", "text-align-" + textAlign);
-	});
+	const tableCells = [ ...getAllTableData(), ...getAllTableHeaders() ];
+	tableCells.forEach( td => {
+		const textAlign = td.dataset.textAlign;
+		if ( textAlign ) {
+			td.setAttribute( "class", "text-align-" + textAlign );
+		}
+	} );
 
 };
 
-const getAllTableData = (): NodeListOf<HTMLTableCellElement> => document.querySelectorAll("td");
-const getAllTableHeaders = (): NodeListOf<HTMLTableCellElement> => document.querySelectorAll("th");
-
+const getAllTableData = (): NodeListOf<HTMLTableCellElement> => {
+	return document.querySelectorAll( "td" );
+};
+const getAllTableHeaders = (): NodeListOf<HTMLTableCellElement> => {
+	return document.querySelectorAll( "th" );
+};
+/* *********************************************** load *********************************************** */
 addResponsiveToAllTables();
-setTablesFullWidth();
+fullWidthTables();
 loadStyles();
-fillEmptyCells();
 
 // if window is resized, reload the styles
-onresize = (event) => {
-	setTablesFullWidth();
+onresize = ( event ) => {
+	fullWidthTables();
 };

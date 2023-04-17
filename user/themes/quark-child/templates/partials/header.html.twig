@@ -1,22 +1,17 @@
 <section id="header" class="section bg-sec">
-	<section class="container">
-		<nav class="navbar">
-			{% do assets.addJs('theme://js/navigation.js', {group:'bottom'}) %}
+	<section class="container {{ grid_size }}">
+		<nav class="navbar f">
 			<section class="navbar-section logo">
 				{% include 'partials/logo.html.twig' %}
-				<div class="web-title">Grav Template</div>
 			</section>
-			<div id="desktop-navigation" class="desktop-navigation navbar-section navigation">
-				{% include 'partials/navigation.html.twig' %}
-			</div>
-			<section id="mobile-menu" class="navbar-section mobile-nav" onclick="toggleNavigationMenu()">
-				<div class="icon">
-					<i></i>
-				</div>
+			<section class="navbar-section link">
+				{% if (home_url is same as("/")) %}
+					<a class="nav-link" href="{{ home_url }}uebersicht">Übersicht</a>
+				{% endif %}
+				{% if (home_url is not same as("/")) %}
+					<a class="nav-link" href="{{ home_url }}/uebersicht">Übersicht</a>
+				{% endif %}
 			</section>
 		</nav>
 	</section>
-	<div class="mobile-navigation" id="mobile-navigation">
-		{% include 'partials/navigation.html.twig' %}
-	</div>
 </section>

@@ -1,0 +1,11 @@
+state: enabled
+email: editor@sgrumisberg.ch
+fullname: Editor
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: KMDXQJC3R3SGMAMWVTWHGQVVLKSLYW2O
+avatar: {  }
+hashed_password: $2y$10$WitrWpexcMiOmYaa.6YGI.hObbja7/2.PhJW7vz5kOtOuhv5BdUli
+groups:
+  - g_editor

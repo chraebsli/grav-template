@@ -17,15 +17,15 @@ spectre:
   icons: false
 custom_logo:
   user/themes/quark-child/images/logo/logo-150px.png:
-    name: logo-150px.png
-    full_path: logo-150px.png
+    name: logo-300px.png
+    full_path: logo-300px.png
     type: image/png
     size: 32904
-    path: user/themes/quark-child/images/logo/logo-150px.png
+    path: user/themes/quark-child/images/logo/logo-300px.png
 custom_logo_mobile:
   user/themes/quark-child/images/logo/logo-150px.png:
-    name: logo-150px.png
-    full_path: logo-150px.png
+    name: logo-300px.png
+    full_path: logo-300px.png
     type: image/png
     size: 32904
-    path: user/themes/quark-child/images/logo/logo-150px.png
+    path: user/themes/quark-child/images/logo/logo-300px.png

@@ -4,9 +4,9 @@ body_classes: "modular"
 class: p-hero
 image_align: left
 hero_classes: "text-light overlay-dark parallax"
-hero_image: theme://images/hero/default-banner.jpg
+hero_image: theme://images/hero/hans-roth.jpg
 published: true
 class: p-hero
 ---
 
-## Herzlich Willkommen bei Grav Template
+# Aktuell

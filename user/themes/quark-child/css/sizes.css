@@ -1,23 +1,36 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
+	#page-wrapper {
+		padding: 0 4rem;
+	}
 	.hero {
-		height: 20rem;
-	}
-
-	#desktop-navigation {
-		display: none !important;
-	}
-
-	#mobile-menu {
-		display: flex !important;
+		height: 25rem;
 	}
 }
 
-@media screen and (min-width: 601px) {
-	#desktop-navigation {
-		display: flex !important;
+@media screen and (max-width: 1200px) {
+	#page-wrapper {
+		padding: 0 2rem;
 	}
 
-	#mobile-menu {
-		display: none !important;
+	.hero {
+		height: 20rem;
+	}
+	.hero h1 {
+		font-size: 2.4rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.hero h1 {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#page-wrapper {
+		padding: 0 1rem;
+	}
+	.hero h1 {
+		font-size: 1.8rem;
 	}
 }

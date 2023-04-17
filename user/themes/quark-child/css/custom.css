@@ -1,11 +1,8 @@
 /* ------------------------------------------- import css ------------------------------------------- */
 @import url(./main.css);
 @import url(./elements.css);
-@import url(./pages.css);
 @import url(./sizes.css);
-@import url(./header-footer.css);
-@import url(./navigation.css);
-@import url(./table.css);
+@import url(./responsive.css);
 
 /* ------------------------------------------- css reset ------------------------------------------- */
 * {
@@ -15,12 +12,11 @@
 /* ------------------------------------------- colors ------------------------------------------- */
 :root {
 	/* settings - color */
-	--bg-color: #ffffff;
 	--pri-text-color: #3d3d3d;
 	--sec-text-color: #ffffff;
 	--pri-bg-color: #ffffff;
-	--sec-color: #4063cb;
-	--prim-color: #4063cb;
+	--sec-color: #3f6e39;
+	--prim-color: #458c3c;
 
 	/* hero image overlay - color */
 	--overlay-dark: #00000033;
