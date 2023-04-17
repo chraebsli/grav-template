@@ -12,6 +12,14 @@
 			"group": "build",
 		},
 		{
+			"label": "Start Local Server",
+			"type": "shell",
+			"command": "bin/grav server",
+			"windows": {
+				"command": "git bash -c 'bin/grav server'",
+			},
+		},
+		{
 			"label": "Install Dependencies",
 			"type": "shell",
 			"command": "./dependencies.sh",
