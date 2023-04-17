@@ -34,6 +34,14 @@ scoop install doppler
 doppler login
 ```
 
+### Auto Setup
+
+If you pull the repo from GitHub, you can run the following command to automatically install the dependencies and secrets after a pull:
+
+```sh
+git config --local core.hooksPath .githooks/
+```
+
 ## Development
 
 ### Secrets
@@ -45,7 +53,7 @@ Requirements:
 
 ```sh
 doppler setup
-doppler run --command="./install.sh"
+./secrets.sh
 ```
 
 ### Local Server
