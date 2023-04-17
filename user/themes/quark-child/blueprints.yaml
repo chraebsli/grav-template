@@ -1,17 +1,17 @@
 name: Quark Child
 slug: quark-child
 type: plugin
-version: 1.0.0
-description: Child Theme von Quark
+version: 0.1.0
+description: Child of Quark
 icon: rebel
 author:
   name: Nicholas Krebs
-  email: contact@chraebsli.dev
-homepage: https://chraebsli.dev
-demo:
+  email: nicholas.joel.krebs@gmail.com
+homepage: https://github.com/chraebsli/grav-template
+demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://chraebsli.dev
-readme: https://chraebsli.dev
+bugs: https://github.com/chraebsli/grav-template/issues
+readme: https://github.com/chraebsli/grav-template/blob/main/README.md
 license: MIT
 
 dependencies:
