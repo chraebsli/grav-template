@@ -9,8 +9,8 @@ language: de
 Willkommen zum Grav Tutorial. Diese Anleitung wird Ihnen helfen, Grav zu verstehen und zu lernen, wie Sie es verwenden können. Es ist in mehrere Abschnitte unterteilt, die jeweils eine bestimmte Funktion des Grav CMS behandeln.
 
 - [Login](/tutorial/login)
+- [Dashboard](/tutorial/dashboard)
 - [Einstellungen](/tutorial/settings)
-- [Statistiken](/tutorial/statistics)
 - [Seiten](/tutorial/pages)
   - [Seite erstellen](/tutorial/pages#create-page)
   - [Seite bearbeiten](/tutorial/pages#edit-page)
