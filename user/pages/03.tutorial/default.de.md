@@ -1,12 +1,12 @@
 ---
-title: main
-body_classes: modular
-class: p-main
-published: true
-image_align: left
+title: Grav Tutorial
+slug: tutorial
+language: de
 ---
 
-## Inhalt
+## Grav Tutorial
+
+Willkommen zum Grav Tutorial. Diese Anleitung wird Ihnen helfen, Grav zu verstehen und zu lernen, wie Sie es verwenden können. Es ist in mehrere Abschnitte unterteilt, die jeweils eine bestimmte Funktion des Grav CMS behandeln.
 
 - [Login](/tutorial/login)
 - [Einstellungen](/tutorial/settings)

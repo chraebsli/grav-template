@@ -1,10 +1,7 @@
 ---
-title: Einstellungen Tutorial
+title: Einstellungen - Grav Tutorial
 slug: tutorial/settings
 language: de
-content:
-  items: "@self.modular"
-body_classes: p-tutorial
 ---
 
 ## Einstellungen Tutorial

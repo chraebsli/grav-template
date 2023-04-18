@@ -1,10 +1,7 @@
 ---
-title: Login Tutorial
+title: Login - Grav Tutorial
 slug: tutorial/login
 language: de
-content:
-  items: "@self.modular"
-body_classes: p-tutorial
 ---
 
 ## Login Tutorial
