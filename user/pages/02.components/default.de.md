@@ -1,43 +1,43 @@
 ---
-title: main
-body_classes: modular
-class: p-main
-published: true
-image_align: left
+title: Komponenten
+slug: components
+language: de
 ---
 
-! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
+!!! Hier finden Sie eine Übersicht über alle verfügbaren Komponenten, die Sie einfach in Ihre Seiten einfügen können.
 
-The [Quark theme](https://github.com/getgrav/grav-theme-quark) is the new default theme for Grav built with [Spectre.css](https://picturepan2.github.io/spectre/) the lightweight, responsive and modern CSS framework. Spectre provides basic styles for typography, elements, and a responsive layout system that utilizes best practices and consistent language design.
+! Details zu den vollständigen Möglichkeiten von Spectre.css finden Sie in der [Offiziellen Spectre Dokumentation](https://picturepan2.github.io/spectre/elements.html)
 
-### Headings
+Das [Quark Theme](https://github.com/getgrav/grav-theme-quark) ist das neue Standard-Theme für Grav, das mit [Spectre.css](https://picturepan2.github.io/spectre/) erstellt wurde, dem leichten, responsiven und modernen CSS-Framework. Spectre bietet grundlegende Styles für Typografie, Elemente und ein responsives Layout-System, das best practices und ein konsistentes Sprachdesign nutzt.
 
-# H1 Heading `40px`
+### Überschriften
 
-## H2 Heading `32px`
+# H1 Überschrift `40px`
 
-### H3 Heading `28px`
+## H2 Überschrift `32px`
 
-#### H4 Heading `24px`
+### H3 Überschrift `28px`
 
-##### H5 Heading `20px`
+#### H4 Überschrift `24px`
 
-###### H6 Heading `16px`
+##### H5 Überschrift `20px`
+
+###### H6 Überschrift `16px`
 
 ```html
-# H1 Heading
-# H1 Heading `40px`</small>`
+# H1 Überschrift
+# H1 Überschrift `40px`</small>`
 
-<span class="h1">H1 Heading</span>
+<span class="h1">H1 Überschrift</span>
 ```
 
-### Paragraphs
+### Paragraphe
 
 Lorem ipsum dolor sit amet, consectetur [adipiscing elit. Praesent risus leo, dictum in vehicula sit amet](#), feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
 
 Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs.
 
-### Markdown Semantic Text Elements
+### Markdown Semantische Text Elemente
 
 **Bold** `**Bold**`
 
@@ -47,11 +47,33 @@ _Italic_ `_Italic_`
 
 `Inline Code` `` `Inline Code` ``
 
-### HTML Semantic Text Elements
+> Blockquote `> Blockquote`
+
+```js
+// Code
+const foo = 'bar';
+function bar() {
+    return foo;
+}
+console.log(bar());
+```
+
+```markdown
+```js
+// Code
+const foo = 'bar';
+function bar() {
+    return foo;
+}
+console.log(bar());
+\```
+```
+
+### HTML Semantische Text Elemente
 
 <abbr>I18N</abbr> `<abbr>`
 
-<cite>Citation</cite> `<cite>`
+<cite>Blockquote</cite> `<cite>`
 
 <kbd>Ctrl + S</kbd> `<kbd>`
 
@@ -59,11 +81,9 @@ Text<sup>Superscripted</sup> `<sup>`
 
 Text<sub>Subscripted</sub> `<sub>`
 
-<u>Underlined</u> `<u>`
+<u>Unterstrichen</u> `<u>`
 
-<mark>Highlighted</mark> `<mark>`
-
-<time>20:14</time> `<time>`
+<mark>Markiert</mark> `<mark>`
 
 <var>x = y + 2</var> `<var>`
 
@@ -81,25 +101,25 @@ Text<sub>Subscripted</sub> `<sub>`
 > <cite>- Bill Gates</cite>
 ```
 
-### Unordered List
+### Ungeordnete Liste
 
-* list item 1
-* list item 2
-    * list item 2.1
-    * list item 2.2
-    * list item 2.3
-* list item 3
+- list item 1
+- list item 2
+  - list item 2.1
+  - list item 2.2
+  - list item 2.3
+- list item 3
 
 ```markdown
-* list item 1
-* list item 2
-    * list item 2.1
-    * list item 2.2
-    * list item 2.3
-* list item 3
+- list item 1
+- list item 2
+    - list item 2.1
+    - list item 2.2
+    - list item 2.3
+- list item 3
 ```
 
-### Ordered List
+### Geordnete Liste
 
 1. list item 1
 1. list item 2
@@ -117,57 +137,47 @@ Text<sub>Subscripted</sub> `<sub>`
 1. list item 3
 ```
 
-### Table
+### Tabellen
 
-| Name                     |           Genre           |      Release date |
-|:-------------------------|:-------------------------:|------------------:|
-| The Shawshank Redemption |       Crime, Drama        |   14 October 1994 |
-| The Godfather            |       Crime, Drama        |     24 March 1972 |
-| Schindler's List         | Biography, Drama, History |   4 February 1994 |
-| No Genre                 |                           |        7 May 5890 |
-| Se7en                    |   Crime, Drama, Mystery   | 22 September 1995 |
+| Name                     |           Genre           |   Veröffentlichung |
+|:-------------------------|:-------------------------:|-------------------:|
+| The Shawshank Redemption |       Crime, Drama        |   14. Oktober 1994 |
+| The Godfather            |       Crime, Drama        |      24. März 1972 |
+| Schindler's List         | Biography, Drama, History |    4. Februar 1994 |
+| No Genre                 |                           |        7. Mai 1990 |
+| Se7en                    |   Crime, Drama, Mystery   | 22. September 1995 |
 
-```markdown
-| Name                        | Genre                         | Release date         |
-| :-------------------------- | :---------------------------: | -------------------: |
-| The Shawshank Redemption    | Crime, Drama                  | 14 October 1994      |
-| The Godfather               | Crime, Drama                  | 24 March 1972        |
-| Schindler's List            | Biography, Drama, History     | 4 February 1994      |
-| No Genre                    |                               | 7 May 5890           |
-| Se7en                       | Crime, Drama, Mystery         | 22 September 1995    |
-```
+### Anmerkungen
 
-### Notices
+Die Anmerkungssymbole sind eigentlich vom `markdown-notices` Plugin bereitgestellt, aber sie sind nützlich genug, um sie hier aufzunehmen:
 
-The notices styles are actually provided by the `markdown-notices` plugin but are useful enough to include here:
+! Diese ist eine Warnung
 
-! This is a warning notification
+!! Dies ist eine Fehlermeldung
 
-!! This is a error notification
+!!! Dies ist eine Standardbenachrichtigung
 
-!!! This is a default notification
-
-!!!! This is a success notification
+!!!! Dies ist eine Erfolgsmeldung
 
 ```markdown
-! This is a warning notification
+! Diese ist eine Warnung
 
-!! This is a error notification
+!! Dies ist eine Fehlermeldung
 
-!!! This is a default notification
+!!! Dies ist eine Standardbenachrichtigung
 
-!!!! This is a success notification
+!!!! Dies ist eine Erfolgsmeldung
 ```
 
 ### Details
 
-Details are a great way to hide content that is not important to the main flow of the document. They are also a great way to provide additional information to the user without cluttering the page.
+Details sind eine gute Möglichkeit, Inhalte zu verbergen, die nicht wichtig für den Hauptfluss des Dokuments sind. Sie sind auch eine gute Möglichkeit, dem Benutzer zusätzliche Informationen ohne Verwirrung der Seite bereitzustellen.
 
-[details="Click to reveal more information"]
-Here is some additional information that you can reveal by clicking the button.
+[details="Klicken Sie hier, um weitere Informationen anzuzeigen"]
+Hier ist zusätzliche Informationen, die Sie durch Klicken auf die Schaltfläche aufdecken können.
 [/details]
 
-### Accordion
+### Akkordeon
 
 [ui-accordion independent=false open=1]
 [ui-accordion-item title="Section 1"]
