@@ -27,7 +27,7 @@ languages:
   override_locale: false
   pages_fallback_only: false
 home:
-  alias: /aktuell
+  alias: /welcome
   hide_in_urls: false
 pages:
   type: regular
