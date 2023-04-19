@@ -104,3 +104,11 @@ In den Optionen findest du gängige Einstellungen, die du für eine Seite vorneh
 | `Slug`                   | URL, an der die Seite erreichbar sein soll                      |
 
 Die weiteren Optionen sind nicht relevant für die meisten Benutzer.
+
+### Module
+
+Module sind Elemente, die du auf einer Seite einfügen kannst. Dies sind zum Beispiel das Hero-Modul (Teaser Bild mit Überschrift) und das Main-Modul (Hauptteil). Die Reihenfolge der Module kannst du in den Einstellungen der Seite ändern.
+
+Module funktionieren grundsätzlich wie normale Seiten, was die Bearbeitung und die Optionen und Aktionsmöglichkeiten betrifft.
+
+Sie können verwendet werden, um auf einer Seite verschiedene Komponenten oder Abschnitte zu erstellen. Sie sind auch praktisch, wenn man temporär Inhalte auf einer Seite ausblenden möchte, ohne sie zu löschen. Danach kann man diese wieder einblenden.
