@@ -11,7 +11,7 @@ language: de
 1. Melde dich im Admin Panel an
 2. Navigiere zu den Einstellungen (orange markiert)
 3. Nun solltest du folgende Seite sehen:
-![Screenshot Einstellungen](settings.png?lightbox)
+![Screenshot Einstellungen](settings.webp)
 
 4. In der oberen Leiste findest du die verschiedenen [Einstellungskategorien](#categories) (violett markiert)
 5. Tätige die gewünschten Änderungen

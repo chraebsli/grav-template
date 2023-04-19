@@ -8,7 +8,7 @@ language: de
 
 !!! Wie man sich beim Grav Admin Panel anmeldet.
 
-![Screenshot Login Seite](login.png?lightbox)
+![Screenshot Login Seite](login.webp)
 
 1. Öffne die Login Seite ([yoursite.com/admin](https://yoursite.com/admin))
 2. Gib deinen Benutzernamen oder Email Adresse ein (rot markiert)
@@ -16,7 +16,7 @@ language: de
 4. Klicke auf den Login Button (orange markiert)
 
 !!!! Du bist nun im Admin Panel eingeloggt und siehst folgende Seite:
-!!!! ![Screenshot Admin Panel](dashboard.png?lightbox)
+!!!! ![Screenshot Admin Panel](dashboard.webp)
 
 !! Solltest du falsche Daten eingegeben haben, siehst du folgende Fehlermeldung:
-!! ![Screenshot Login Fehlermeldung](login-error.png?lightbox)
+!! ![Screenshot Login Fehlermeldung](login-error.webp)

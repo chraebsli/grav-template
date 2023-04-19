@@ -13,11 +13,11 @@ language: de
 
 !!! Zu den Gruppen kannst du über die Navigationsleiste oben (grün markiert) navigieren.
 
-![Screenshot Benutzer](users.png?lightbox)
+![Screenshot Benutzer](users.webp)
 
-### Benutzer erstellen
+### Benutzer erstellen {#create-user}
 
-![Screenshot Benutzer erstellen](create-user.png?lightbox)
+![Screenshot Benutzer erstellen](create-user.webp)
 
 Du kannst einen Benutzer erstellen, indem du auf den Knopf «Benutzer erstellen» klickst (oben rechts, pink markiert). Dann kannst du folgende Angaben machen:.
 
@@ -38,22 +38,22 @@ Weitere Schritte:
 - [Benutzer löschen](#benutzer-löschen)
 - [Gruppe erstellen](#gruppe-erstellen)
 
-### Benutzer bearbeiten
+### Benutzer bearbeiten {#edit-user}
 
 Um einen Benutzer zu bearbeiten, musst du Folgendes tun:
 
 1. Klicke auf den Benutzer, den du bearbeiten möchtest, in der Benutzerübersicht.
 2. Nun kannst du die Benutzerdaten bearbeiten.
 
-### Benutzer löschen
+### Benutzer löschen {#delete-user}
 
 Um einen Benutzer zu löschen, klicke auf das Löschsymbol neben dem Benutzer, den du löschen möchtest.
 
 ---
 
-### Gruppe erstellen
+### Gruppe erstellen {#create-group}
 
-![Screenshot Gruppe erstellen](create-group.png?lightbox)
+![Screenshot Gruppe erstellen](create-group.webp)
 
 1. Navigiere zu den Gruppen
 2. Klicke auf den Knopf «Erstellen» (oben rechts, pink markiert)
@@ -67,7 +67,7 @@ Um einen Benutzer zu löschen, klicke auf das Löschsymbol neben dem Benutzer, d
 
 [size=20]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
 
-### Gruppe bearbeiten
+### Gruppe bearbeiten {#edit-group}
 
 Um eine Gruppe zu bearbeiten, musst du Folgendes tun:
 
@@ -75,6 +75,6 @@ Um eine Gruppe zu bearbeiten, musst du Folgendes tun:
 2. Klicke auf die Gruppe, die du bearbeiten möchtest, in der Gruppenübersicht.
 3. Jetzt kannst du die Gruppendaten bearbeiten.
 
-### Gruppe löschen
+### Gruppe löschen {#delete-group}
 
 Um eine Gruppe zu löschen, klicke auf das Löschsymbol neben der Gruppe, den du löschen willst.

@@ -11,7 +11,7 @@ language: de
 1. Melde dich im Admin Panel an
 2. Nun solltest du das Dashboard sehen:
 
-![Screenshot Dashboard](dashboard.png?lightbox)
+![Screenshot Dashboard](dashboard.webp)
 
 ### Wartung
 

@@ -11,7 +11,7 @@ language: de
 1. Navigiere zu den Seiten (rot markiert)
 2. Du solltest nun die Seiten sehen:
 
-![Screenshot Seiten](pages.png?lightbox)
+![Screenshot Seiten](pages.webp)
 
 ### Übersicht
 
@@ -33,7 +33,7 @@ Um das Element zu öffnen, klicke darauf. Um Optionen zu öffnen, klicke auf die
 
 In den Optionen kannst du die Seite bearbeiten, duplizieren und löschen. Zudem kannst du eine Vorschau der Seite öffnen.
 
-### Seite erstellen
+### Seite erstellen {#create-page}
 
 Du kannst eine neue Seite erstellen, indem du entweder den Knopf «Neue Seite erstellen» drückst oder eine Seite duplizierst. Dann musst du folgende Angaben machen:
 
@@ -50,11 +50,11 @@ Weitere Schritte:
 - [Seite bearbeiten](#seite-bearbeiten)
 - [Seiteneinstellungen](#seiteneinstellungen)
 
-### Seite bearbeiten
+### Seite bearbeiten {#edit-page}
 
 Um eine Seite zu bearbeiten, klicke ein Element in der Seitenübersicht an. Du kannst nun die Seite bearbeiten.
 
-![Screenshot Seite bearbeiten](edit-page.png?lightbox)
+![Screenshot Seite bearbeiten](edit-page.webp)
 
 In der Navigation oben (pink markiert) kannst du zwischen Inhalt und verschiedenen Optionen wechseln.
 
@@ -63,13 +63,13 @@ Um eine grobe Vorschau der Seite zu sehen, klicke auf das Auge oben links.
 
 Zu unterst (rot markiert) kannst du Bilder, Videos und andere Medien hochladen.
 
-### Seite löschen
+### Seite löschen {#delete-page}
 
 Um eine Seite zu löschen, klicke auf die drei Punkte neben dem Element in der Seitenübersicht. Klicke dann auf «Löschen». Du wirst gefragt, ob du die Seite wirklich löschen möchtest. Klicke auf «Löschen».
 
 !! Änderungen können nicht rückgängig gemacht werden.
 
-### Seiteneinstellungen
+### Seiteneinstellungen {#page-settings}
 
 Es gibt verschiedene Einstellungen, die du für ein Element vornehmen kannst.
 
@@ -77,7 +77,7 @@ Es gibt verschiedene Einstellungen, die du für ein Element vornehmen kannst.
 
 In den Optionen findest du gängige Einstellungen, die du für eine Seite vornehmen kannst. Diese sind:
 
-![Screenshot Optionen](options.png?lightbox)
+![Screenshot Optionen](options.webp)
 
 | Option                   | Beschreibung                                                       |
 |:------------------------ |:------------------------------------------------------------------ |
@@ -91,7 +91,7 @@ In den Optionen findest du gängige Einstellungen, die du für eine Seite vorneh
 
 #### Erweiterte Optionen
 
-![Screenshot erweiterte Optionen](advanced-options.png?lightbox)
+![Screenshot erweiterte Optionen](advanced-options.webp)
 
 | Option                   | Beschreibung                                                    |
 |:------------------------ |:--------------------------------------------------------------- |
@@ -105,7 +105,7 @@ In den Optionen findest du gängige Einstellungen, die du für eine Seite vorneh
 
 Die weiteren Optionen sind nicht relevant für die meisten Benutzer.
 
-### Module
+### Module {#modules}
 
 Module sind Elemente, die du auf einer Seite einfügen kannst. Dies sind zum Beispiel das Hero-Modul (Teaser Bild mit Überschrift) und das Main-Modul (Hauptteil). Die Reihenfolge der Module kannst du in den Einstellungen der Seite ändern.
 
