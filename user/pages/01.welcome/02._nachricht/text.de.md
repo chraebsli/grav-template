@@ -6,3 +6,4 @@ published: false
 image_align: left
 ---
 
+!!! Diese Seite ist nur für Demonstrationszwecke.
