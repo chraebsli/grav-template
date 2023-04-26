@@ -169,7 +169,7 @@ section {
 #footer,
 .header-dark #header,
 .header-dark #header:not(.scrolled) {
-  background-color: var(--sec-color);
+  background-color: #4063cb;
 }
 
 #header {
@@ -186,7 +186,7 @@ section {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 #header .navbar-section {
   width: fit-content;
@@ -204,16 +204,14 @@ section {
 #footer a {
   color: white;
 }
-#footer a a:hover {
-  opacity: 0.8;
-}
 
 #mobile-navigation .show,
 #mobile-menu .show {
   display: flex;
 }
-#mobile-navigation :not(.show),
-#mobile-menu :not(.show) {
+
+#mobile-navigation:not(.show),
+#mobile-menu:not(.show) {
   display: none;
 }
 
@@ -250,7 +248,7 @@ nav.navbar {
   padding: 0 0.5rem;
 }
 .navigation .nav-item.active {
-  background-color: var(--prim-color);
+  background-color: #4063cb;
 }
 .navigation .nav-item a {
   display: flex;
@@ -273,7 +271,7 @@ nav.navbar {
 #mobile-navigation .nav-item {
   height: 3rem;
   width: 100%;
-  background-color: var(--prim-color);
+  background-color: #4063cb;
 }
 #mobile-navigation .nav-item.active {
   background-color: #ffffff;
@@ -300,7 +298,7 @@ table {
   border-spacing: unset;
 }
 table th {
-  background-color: var(--prim-color);
+  background-color: #4063cb;
   color: #ffffff;
 }
 table th,
@@ -338,7 +336,7 @@ table .text-align-left {
     width: 1px;
   }
   table tr {
-    border-bottom: 3px solid var(--sec-color);
+    border-bottom: 3px solid #4063cb;
     display: block;
     margin-bottom: 0.625em;
   }
@@ -352,7 +350,7 @@ table .text-align-left {
     float: left;
     font-weight: bold;
     text-transform: uppercase;
-    color: var(--sec-color);
+    color: #4063cb;
   }
   table td :last-child {
     border-bottom: 0;

@@ -1,10 +1,15 @@
+@import 'variables';
+
 #mobile-navigation,
 #mobile-menu {
 	.show {
 		display: flex;
 	}
+}
 
-	:not(.show) {
+#mobile-navigation,
+#mobile-menu {
+	&:not(.show) {
 		display: none;
 	}
 }
@@ -46,7 +51,7 @@ nav.navbar {
 		padding: 0 .5rem;
 
 		&.active {
-			background-color: var(--prim-color);
+			background-color: $prim-color;
 		}
 
 		a {
@@ -73,7 +78,7 @@ nav.navbar {
 	.nav-item {
 		height: 3rem;
 		width: 100%;
-		background-color: var(--prim-color);
+		background-color: $prim-color;
 
 		&.active {
 			background-color: #ffffff;

@@ -10,7 +10,7 @@
 #footer,
 .header-dark #header,
 .header-dark #header:not(.scrolled) {
-	background-color: var(--sec-color);
+	background-color: $sec-color;
 }
 
 #header {
@@ -28,7 +28,7 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: stretch;
 	}
 
 	.navbar-section {
@@ -48,9 +48,5 @@
 
 	a {
 		color: white;
-
-		a:hover {
-			opacity: 0.8;
-		}
 	}
 }
