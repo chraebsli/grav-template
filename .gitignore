@@ -10,3 +10,4 @@
 /logs/grav.log
 .env.local
 !.gitkeep
+.sass-cache/
