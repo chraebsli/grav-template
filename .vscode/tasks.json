@@ -35,5 +35,13 @@
 				"command": "git bash -c './secrets.sh'",
 			},
 		},
+		{
+			"label": "Watch SASS",
+			"type": "shell",
+			"command": "cd user/themes/quark-child && sass --watch sass:css",
+			"windows": {
+				"command": "cmd /c 'cd user/themes/quark-child && sass --watch sass:css'",
+			},
+		},
 	],
 }
