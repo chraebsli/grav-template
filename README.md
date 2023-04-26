@@ -49,11 +49,20 @@ doppler login
 
 ### SASS Installation
 
+#### Windows
 **Requirements**:
-- [node.js](https://nodejs.org/)
+- [choco](https://chocolatey.org/)
 
 ```sh
-npm install -g sass
+choco install sass
+```
+
+#### Linux
+**Requirements**:
+- [brew](https://brew.sh/)
+
+```sh
+brew install sass/sass/sass
 ```
 
 ### Secrets
