@@ -5,8 +5,9 @@
 1. Clone the repository
 2. Install [dependencies](#dependencies)
 3. Install [Doppler](#doppler-installation)
-4. Configure [secrets](#secrets)
-5. (opt) [Auto Setup](#auto-setup) (to automatically install the dependencies and secrets after a pull)
+4. Install [SASS](#sass-installation)
+5. Configure [secrets](#secrets)
+6. (opt) [Auto Setup](#auto-setup) (to automatically install the dependencies and secrets after a pull)
 
 ### Dependencies
 
@@ -44,6 +45,15 @@ scoop install doppler
 
 ```sh
 doppler login
+```
+
+### SASS Installation
+
+**Requirements**:
+- [node.js](https://nodejs.org/)
+
+```sh
+npm install -g sass
 ```
 
 ### Secrets
