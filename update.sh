@@ -4,8 +4,11 @@
 git stash push --include-untracked -- logs/popularity user/data/flex/indexes
 
 # Reset working directory
+git reset --hard
+git clean -fd
 
 # Pull latest changes
+git pull
 
 # Restore local changes
 git stash pop 0
