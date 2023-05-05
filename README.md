@@ -1,5 +1,26 @@
 # Grav Template
 
+A template for [Grav](https://getgrav.org/) projects to quickly get started.
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+  - [Dependencies](#dependencies)
+  - [Doppler Installation](#doppler-installation)
+    - [Install on Windows](#install-on-windows)
+    - [Install on Linux](#install-on-linux)
+    - [Login](#login)
+  - [SASS Installation](#sass-installation)
+    - [Windows](#windows)
+    - [Linux](#linux)
+  - [Secrets](#secrets)
+  - [Auto Setup](#auto-setup)
+- [Development](#development)
+  - [Local Server](#local-server)
+- [Configuration](#configuration)
+- [Update](#update)
+
 ## Installation
 
 1. Clone the repository
