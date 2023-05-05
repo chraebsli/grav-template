@@ -108,3 +108,7 @@ git config --local core.hooksPath .githooks/
   - [ ] [templates](user/themes/quark-child/templates)
   - [ ] [CSS](user/themes/quark-child/css)
   - [ ] [Images](user/themes/quark-child/images)
+
+## Update
+
+To update a branch with the latest changes, execute the `update.sh` script.
