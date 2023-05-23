@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install vendor packages
 composer install

@@ -24,7 +24,7 @@
 			"type": "shell",
 			"command": "./dependencies.sh",
 			"windows": {
-				"command": "git bash -c './dependencies.sh'",
+				"command": "git bash -c './scripts/dependencies.sh'",
 			},
 		},
 		{
@@ -32,7 +32,7 @@
 			"type": "shell",
 			"command": "./secrets.sh",
 			"windows": {
-				"command": "git bash -c './secrets.sh'",
+				"command": "git bash -c './scripts/secrets.sh'",
 			},
 		},
 		{
