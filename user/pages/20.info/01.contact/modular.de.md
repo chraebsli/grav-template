@@ -1,6 +1,6 @@
 ---
 title: Kontakt
-slug: kontakt
+slug: contact
 language: de
 content:
   items: "@self.modular"

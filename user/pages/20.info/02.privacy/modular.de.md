@@ -1,6 +1,6 @@
 ---
 title: Datenschutz
-slug: datenschutz
+slug: privacy
 language: de
 content:
   items: "@self.modular"

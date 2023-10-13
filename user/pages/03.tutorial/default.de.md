@@ -10,7 +10,7 @@ date: 13.10.2023
 
 ## Grav Tutorial
 
-Willkommen zum Grav Tutorial. Diese Anleitung wird Ihnen helfen, Grav zu verstehen und zu lernen, wie Sie es verwenden können. Es ist in mehrere Abschnitte unterteilt, die jeweils eine bestimmte Funktion des Grav CMS behandeln.
+Willkommen zum Grav Tutorial. Mithilfe dieser Anleitung kannst du bereits die meisten und wichtigsten Funktionen von Grav verwenden und verstehen.
 
 - [Login](/tutorial/login)
 - [Dashboard](/tutorial/dashboard)
@@ -29,3 +29,11 @@ Willkommen zum Grav Tutorial. Diese Anleitung wird Ihnen helfen, Grav zu versteh
   - [Gruppe bearbeiten](/tutorial/accounts#edit-group)
   - [Gruppe löschen](/tutorial/accounts#delete-group)
 - [Markdown Cheatsheet](/components)
+
+## Weitere Links
+
+Hier sind noch weitere Links, die nützlich sein können:
+
+- [ScribeHow Tutorial zu Grav](https://scribehow.com/page/Grav_CMS_Tutorial__zLmc6Ps-SsGNxt9fFX5FUA) (interaktiv)
+- [Offizielle Grav Dokumentation](https://learn.getgrav.org/)
+- [Offizielle Spectre Dokumentation](https://picturepan2.github.io/spectre/elements/code.html)

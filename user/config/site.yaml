@@ -1,13 +1,13 @@
-title: "Grav Template"
+title: "Grav Demo"
 default_lang: de
 author:
   name: Nicholas Krebs
-  email: "nicholas.joel.krebs@gmail.com"
+  email: "contact@chraebsli.dev"
 taxonomies:
   - category
   - tag
 metadata:
-  description: "Dies ist die Website der Grav Template"
+  description: "Diese Seite dient als inoffizielle Demonstration und Hilfestellung für Grav"
 summary:
   enabled: true
   format: short

@@ -9,7 +9,6 @@ image_align: left
 ## Kontakt
 
 Kontaktiere uns unter:
-Nicholas Krebs
-In der Gass 1
-3380 Wangen an der Aare
-[contact@nicholas-krebs.ch](mailto:contact@nicholas-krebs.ch)
+Chraebsli IT Services  
+[contact@chraebsli.dev](mailto:contact@chraebsli.dev)  
+[chraebsli.dev](https://chraebsli.dev)
