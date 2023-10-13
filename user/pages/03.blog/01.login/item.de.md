@@ -1,11 +1,14 @@
 ---
 title: Login - Grav Tutorial
-slug: tutorial/login
+slug: login
 language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 13.10.2023
+taxonomy:
+  tag: [Grav]
+  author: chraebsli
 ---
 
 ## Login Tutorial

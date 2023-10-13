@@ -6,9 +6,10 @@ sitemap:
   changefreq: monthly
   priority: 0.7
 date: 13.10.2023
+taxonomy:
+  tag: [Grav]
+  author: chraebsli
 ---
-
-## Grav Tutorial
 
 Willkommen zum Grav Tutorial. Mithilfe dieser Anleitung kannst du bereits die meisten und wichtigsten Funktionen von Grav verwenden und verstehen.
 
