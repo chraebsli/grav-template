@@ -2,6 +2,10 @@
 title: Seiten - Grav Tutorial
 slug: tutorial/pages
 language: de
+sitemap:
+  changefreq: yearly
+  priority: 0.5
+date: 13.10.2023
 ---
 
 ## Seiten Tutorial

@@ -2,6 +2,10 @@
 title: Login - Grav Tutorial
 slug: tutorial/login
 language: de
+sitemap:
+  changefreq: yearly
+  priority: 0.5
+date: 13.10.2023
 ---
 
 ## Login Tutorial

@@ -2,6 +2,10 @@
 title: Dashboard - Grav Tutorial
 slug: tutorial/dashboard
 language: de
+sitemap:
+  changefreq: yearly
+  priority: 0.5
+date: 13.10.2023
 ---
 
 ## Dashboard Tutorial

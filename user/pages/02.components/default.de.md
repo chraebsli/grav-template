@@ -2,6 +2,10 @@
 title: Komponenten
 slug: components
 language: de
+sitemap:
+  changefreq: monthly
+  priority: 0.7
+date: 13.10.2023
 ---
 
 !!! Hier finden Sie eine Übersicht über alle verfügbaren Komponenten, die Sie einfach in Ihre Seiten einfügen können.

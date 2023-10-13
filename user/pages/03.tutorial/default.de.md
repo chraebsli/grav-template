@@ -2,6 +2,10 @@
 title: Grav Tutorial
 slug: tutorial
 language: de
+sitemap:
+  changefreq: monthly
+  priority: 0.7
+date: 13.10.2023
 ---
 
 ## Grav Tutorial

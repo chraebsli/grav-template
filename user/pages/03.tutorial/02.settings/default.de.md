@@ -2,6 +2,10 @@
 title: Einstellungen - Grav Tutorial
 slug: tutorial/settings
 language: de
+sitemap:
+  changefreq: yearly
+  priority: 0.5
+date: 13.10.2023
 ---
 
 ## Einstellungen Tutorial
