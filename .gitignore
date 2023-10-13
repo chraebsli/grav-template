@@ -3,7 +3,8 @@
 /cache/**
 /backup/**
 /tmp/**
-/user/plugins
+/user/plugins/
+!/user/plugins/sitemap/sitemap.php
 /user/data/notifications/
 /user/data/feed/
 /assets/admin-preset.css
