@@ -2,6 +2,8 @@
 title: Grav Tutorial
 slug: tutorial
 language: de
+content:
+  items: '@self.children'
 sitemap:
   changefreq: monthly
   priority: 0.7
