@@ -12,8 +12,6 @@ A template for [Grav](https://getgrav.org/) projects to quickly get started.
     - [Install on Linux](#install-on-linux)
     - [Login](#login)
   - [SASS Installation](#sass-installation)
-    - [Windows](#windows)
-    - [Linux](#linux)
   - [Secrets](#secrets)
   - [Auto Setup](#auto-setup)
 - [Development](#development)
@@ -40,7 +38,7 @@ Install the dependencies:
 - Run IDE Task: `Install Dependencies`
 - Run in Terminal:
   ```sh
-  ./dependencies.sh
+  ./scripts/dependencies.sh
   ```
 
 ### Doppler Installation
@@ -70,20 +68,8 @@ doppler login
 
 ### SASS Installation
 
-#### Windows
-**Requirements**:
-- [choco](https://chocolatey.org/)
-
 ```sh
-choco install sass
-```
-
-#### Linux
-**Requirements**:
-- [brew](https://brew.sh/)
-
-```sh
-brew install sass/sass/sass
+npm install -g sass
 ```
 
 ### Secrets
@@ -95,7 +81,7 @@ brew install sass/sass/sass
 
 ```sh
 doppler setup
-./secrets.sh
+./scripts/secrets.sh
 ```
 
 ### Auto Setup

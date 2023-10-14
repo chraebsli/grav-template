@@ -1,7 +1,7 @@
 state: enabled
-email: default-admin@grav-template.com
+email: admin@grav-demo.chraebsli.dev
 fullname: Admin
-hashed_password: $2y$10$rGbEjdYZQQnJF4gTuMdWkOb4ft/NGsZWowQ5zjOlDlkU5DwGuCi5m
+hashed_password: $2y$10$Au1.t4JQ4LxXR5Xcq.GS7eC0pt.GdfY36mLn2pL/N.eMlebT/8mQ6
 language: de
 content_editor: default
 twofa_enabled: false

@@ -6,7 +6,7 @@ published: true
 image_align: left
 ---
 
-!!! Dies ist eine Demo Seite für die [Grav CMS Plattform](http://getgrav.org).
+!!! Diese Seite dient als inoffizielle Demonstration und Hilfestellung für [Grav](http://getgrav.org).
 
 ### Inhalt
 
@@ -15,6 +15,6 @@ image_align: left
 
 ### Webmaster
 
-Nicholas Krebs  
-[contact@nicholas-krebs.ch](mailto:contact@nicholas-krebs.ch)  
-[nicholas-krebs.ch](http://nicholas-krebs.ch)
+Chraebsli IT Services  
+[contact@chraebsli.dev](mailto:contact@chraebsli.dev)  
+[chraebsli.dev](https://chraebsli.dev)

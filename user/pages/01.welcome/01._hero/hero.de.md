@@ -6,7 +6,6 @@ image_align: left
 hero_classes: "text-light overlay-dark parallax"
 hero_image: theme://images/hero/default-banner.jpg
 published: true
-class: p-hero
 ---
 
-## Herzlich Willkommen bei Grav Template
+## Herzlich Willkommen bei Grav Demo

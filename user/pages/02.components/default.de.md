@@ -2,42 +2,43 @@
 title: Komponenten
 slug: components
 language: de
+sitemap:
+  changefreq: monthly
+  priority: 0.7
+date: 13.10.2023
 ---
 
-!!! Hier finden Sie eine Übersicht über alle verfügbaren Komponenten, die Sie einfach in Ihre Seiten einfügen können.
+!!! Hier findest du eine Übersicht über alle verfügbaren Komponenten, die du in deine Seite einfügen kannst.
 
-! Details zu den vollständigen Möglichkeiten von Spectre.css finden Sie in der [Offiziellen Spectre Dokumentation](https://picturepan2.github.io/spectre/elements.html)
-
-Das [Quark Theme](https://github.com/getgrav/grav-theme-quark) ist das neue Standard-Theme für Grav, das mit [Spectre.css](https://picturepan2.github.io/spectre/) erstellt wurde, dem leichten, responsiven und modernen CSS-Framework. Spectre bietet grundlegende Styles für Typografie, Elemente und ein responsives Layout-System, das best practices und ein konsistentes Sprachdesign nutzt.
+!!! Eine umfangreichere Version findest du in der [Offiziellen Spectre Dokumentation](https://picturepan2.github.io/spectre/elements.html).
 
 ### Überschriften
 
-# H1 Überschrift `40px`
+# H1 Überschrift
 
-## H2 Überschrift `32px`
+## H2 Überschrift
 
-### H3 Überschrift `28px`
+### H3 Überschrift
 
-#### H4 Überschrift `24px`
+#### H4 Überschrift
 
-##### H5 Überschrift `20px`
+##### H5 Überschrift
 
-###### H6 Überschrift `16px`
+###### H6 Überschrift
 
 ```html
 # H1 Überschrift
-# H1 Überschrift `40px`</small>`
-
-<span class="h1">H1 Überschrift</span>
+...
 ```
 
-### Paragraphe
+### Paragraph
 
-Lorem ipsum dolor sit amet, consectetur [adipiscing elit. Praesent risus leo, dictum in vehicula sit amet](#), feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
+Etiam euismod ornare consequat.
 
-Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
 
-### Markdown Semantische Text Elemente
+### Markdown Elemente
 
 **Bold** `**Bold**`
 
@@ -59,7 +60,7 @@ console.log(bar());
 ```
 
 ```markdown
-```js
+\```js
 // Code
 const foo = 'bar';
 function bar() {
@@ -69,7 +70,7 @@ console.log(bar());
 \```
 ```
 
-### HTML Semantische Text Elemente
+### HTML Text Elemente
 
 <abbr>I18N</abbr> `<abbr>`
 
@@ -101,7 +102,7 @@ Text<sub>Subscripted</sub> `<sub>`
 > <cite>- Bill Gates</cite>
 ```
 
-### Ungeordnete Liste
+### ungeordnete Liste
 
 - list item 1
 - list item 2
@@ -119,7 +120,7 @@ Text<sub>Subscripted</sub> `<sub>`
 - list item 3
 ```
 
-### Geordnete Liste
+### geordnete Liste
 
 1. list item 1
 1. list item 2
@@ -149,24 +150,22 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ### Anmerkungen
 
-Die Anmerkungssymbole sind eigentlich vom `markdown-notices` Plugin bereitgestellt, aber sie sind nützlich genug, um sie hier aufzunehmen:
+! Warnung
 
-! Diese ist eine Warnung
+!! Fehler
 
-!! Dies ist eine Fehlermeldung
+!!! Info
 
-!!! Dies ist eine Standardbenachrichtigung
-
-!!!! Dies ist eine Erfolgsmeldung
+!!!! Erfolg
 
 ```markdown
-! Diese ist eine Warnung
+! Warnung
 
-!! Dies ist eine Fehlermeldung
+!! Fehler
 
-!!! Dies ist eine Standardbenachrichtigung
+!!! Info
 
-!!!! Dies ist eine Erfolgsmeldung
+!!!! Erfolg
 ```
 
 ### Details

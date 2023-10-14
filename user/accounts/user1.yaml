@@ -1,12 +1,12 @@
 state: enabled
-email: user@grav-template.com
-fullname: 'User Name'
+email: user1@grav-demo.chraebsli.dev
+fullname: 'User One'
 language: de
 content_editor: default
 twofa_enabled: false
 twofa_secret: KMDXQJC3R3SGMAMWVTWHGQVVLKSLYW2O
 avatar: {  }
-hashed_password: $2y$10$EXRrJYRP.P2mvk5OvFUur.AOc3r59Lnz/UTMVwBtlFpmPp5zNDYsO
+hashed_password: $2y$10$ST9Qkz315OGF6vYJeSInWeNlKv0uhK41vk4VlAeG96IWzYRHTiFyK
 groups:
   - g_default
   - g_statistics

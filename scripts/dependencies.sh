@@ -15,6 +15,7 @@ bin/gpm install -y featherlight
 bin/gpm install -y license-manager
 bin/gpm install -y lightbox-gallery
 bin/gpm install -y youtube
+bin/gpm install -y sitemap
 
 # Install shortcode plugins
 bin/gpm install -y shortcode-core
