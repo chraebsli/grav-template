@@ -1,7 +1,7 @@
 <div class="content-item h-entry">
 
 	{% if not hero_image_name %}
-		<div class="content-title text-center">
+		<div class="content-title">
 			{% include 'partials/blog/title.html.twig' with {title_level: 'h2'} %}
 			{% if page.header.subtitle %}
 				<h3 >{{ page.header.subtitle }}</h3>
@@ -20,11 +20,11 @@
 </div>
 
 <p class="prev-next text-center">
-	{% if not page.isLast %}
-		<a class="btn" href="{{ page.prevSibling.url }}"><i class="fa fa-angle-left"></i> {{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
+	{% if not page.isFirst %}
+		<a class="btn" href="{{ page.nextSibling.url }}"><i class="fa fa-angle-left"></i> {{ 'THEME_QUARK.BLOG.ITEM.PREV_POST'|t }}</a>
 	{% endif %}
 
-	{% if not page.isFirst %}
-		<a class="btn" href="{{ page.nextSibling.url }}">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }} <i class="fa fa-angle-right"></i></a>
+	{% if not page.isLast %}
+		<a class="btn" href="{{ page.prevSibling.url }}">{{ 'THEME_QUARK.BLOG.ITEM.NEXT_POST'|t }} <i class="fa fa-angle-right"></i></a>
 	{% endif %}
 </p>

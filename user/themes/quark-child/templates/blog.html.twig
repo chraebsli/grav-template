@@ -25,11 +25,17 @@
 				{% include 'partials/breadcrumbs.html.twig' %}
 			{% endif %}
 
+			{# Just for this site #}
+			{% block content %}
+				{{ page.content|raw }}
+			{% endblock %}
+
+			{# original
 			{% embed 'partials/layout.html.twig' with {blog: page} %}
 				{% block item %}
 
 					<div class="bricklayer">
-						{% for child in collection %}
+						{% for child in collection|reverse %}
 							{% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
 						{% endfor %}
 					</div>
@@ -42,10 +48,8 @@
 
 				{% endblock %}
 
-				{% block sidebar %}
-					{% include 'partials/sidebar.html.twig' %}
-				{% endblock %}
 			{% endembed %}
+			#}
 		</section>
 	</section>
 	<script>

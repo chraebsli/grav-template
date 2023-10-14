@@ -13,6 +13,8 @@ taxonomy:
   author: chraebsli
 ---
 
+## Grav Tutorial
+
 Willkommen zum Grav Tutorial. Mithilfe dieser Anleitung kannst du bereits die meisten und wichtigsten Funktionen von Grav verwenden und verstehen.
 
 - [Login](/tutorial/login)
