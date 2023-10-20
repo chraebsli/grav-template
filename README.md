@@ -105,17 +105,3 @@ git config --local core.hooksPath .githooks/
     bin/grav server
     ```
 2. Open the site in your browser: <http://localhost:8000>
-
-## Configuration
-
-- [ ] edit site config ([user/config/site.yaml](user/config/site.yaml))
-- [ ] add sitemap.xml
-- [ ] edit pages ([user/pages](user/pages))
-- [ ] edit theme ([user/themes/quark-child](user/themes/quark-child))
-  - [ ] [templates](user/themes/quark-child/templates)
-  - [ ] [CSS](user/themes/quark-child/css)
-  - [ ] [Images](user/themes/quark-child/images)
-
-## Update
-
-To update a branch with the latest changes, execute the `update.sh` script.
