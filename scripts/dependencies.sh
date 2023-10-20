@@ -22,3 +22,6 @@ bin/gpm install -y shortcode-core
 bin/gpm install -y shortcode-gallery-plusplus
 bin/gpm install -y shortcode-owl-carousel
 bin/gpm install -y shortcode-ui
+
+# Reset custom plugin files
+git restore user/plugins/sitemap/sitemap.php
